@@ -3,4 +3,6 @@
     <string name="texto_pregunta">¿La peninsula de Yucatan se encuentra al Norte de Mexico?</string>
     <string name="texto_boton_cierto">Cierto</string>
     <string name="texto_boton_falso">Falso</string>
+    <string name="texto_correcto">¡Correcto!</string>
+    <string name="texto_incorrecto">¡Incorrecto!</string>
 </resources>
