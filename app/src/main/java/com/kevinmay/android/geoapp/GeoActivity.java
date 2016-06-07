@@ -16,6 +16,7 @@ public class GeoActivity extends AppCompatActivity {
     private Button mBotonCierto;
     private Button mBotonFalso;
     private Button mBotonSiguiente;
+    private Button mBotonHacerTrampa;
     private TextView mTextoPregunta;
     private Pregunta mBancoDePreguntas[] = {
             new Pregunta(R.string.texto_pregunta_1, false),

@@ -4,6 +4,7 @@
     <string name="texto_boton_falso">Falso</string>
     <string name="texto_correcto">¡Correcto!</string>
     <string name="texto_incorrecto">¡Incorrecto!</string>
+    <string name="texto_boton_hacertrampa">Hacer Trampa</string>
     <string name="texto_boton_siguiente">Siguiente</string>
     <string name="texto_pregunta_1">¿La peninsula de Yucatan se encuentra al Norte de Mexico?</string>
     <string name="texto_pregunta_2">¿Nuestro sistema solar se encuentra en la galaxia via láctea?</string>

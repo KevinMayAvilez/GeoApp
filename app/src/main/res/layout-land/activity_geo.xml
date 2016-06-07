@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,21 +8,21 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="vertical"
-    android:gravity="center"
     tools:context="com.example.kevin.geoapp.GeoActivity">
 
     <TextView
+        android:id="@+id/texto_pregunta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="24dp"
-        android:id="@+id/texto_pregunta"
+        android:layout_gravity="center_horizontal"
         android:text="@string/texto_pregunta_1"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal|center">
 
         <Button
             android:id="@+id/boton_cierto"
@@ -36,15 +37,11 @@
 
     </LinearLayout>
     <Button
-    android:id="@+id/boton_hacertrampa"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="@string/texto_boton_hacertrampa"/>
-    <Button
         android:id="@+id/boton_siguiente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/texto_boton_siguiente"/>
+        android:text="@string/texto_boton_siguiente"
+        android:layout_gravity="bottom|right"/>
 
 
-</LinearLayout>
+</FrameLayout>
